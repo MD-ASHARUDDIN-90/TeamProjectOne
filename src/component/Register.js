@@ -1,4 +1,4 @@
-import React, { useState ,useEffect} from "react";
+import React, { useState } from "react";
 import { MdMailOutline } from "react-icons/md";
 import { FaLock ,FaUserAlt} from "react-icons/fa";
 import RegisterStyle from "./Register.module.css"
@@ -107,9 +107,9 @@ export default function App(){
         <div>
         <br/>
         <div className={RegisterStyle.button}>
-        <button onClick={submit}>Submit</button>
+        <button className={RegisterStyle.buttons} onClick={submit}>Submit</button>
         <div><strong>Already a User you can login</strong></div>
-        <Link className={RegisterStyle.but} to="/login">LOGIN</Link>
+        <Link className={RegisterStyle.but} to="/login">LOGIN PAGE</Link>
         </div>
         </div>
         </div>

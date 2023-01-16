@@ -94,7 +94,7 @@ if(username=== ""){
     <br/>
     <div className={RegisterStyle.button}>
        
-    <button onClick={submit}>Login</button>
+    <button className={RegisterStyle.buttons} onClick={submit}>Login</button>
         <div><strong>New User you can go to </strong></div>
         <Link className={RegisterStyle.but} to="/register">Registraion page</Link>
         </div>

@@ -27,10 +27,24 @@ box-shadow: 10px 10px 10px rgb(197, 19, 19) ;
     display: block;
 }
 .but{
-    background-color: rgb(255, 0, 64);
+   
     color: white;
-    border: 2px solid black;
+    height: 8vh;
+    width: 10vw;
     /* border-radius: 20%; */
     /* margin: auto; */
-    text-decoration: none;
+    /* text-decoration: none; */
+}
+.buttons{
+    width: 8em;
+    height: 5vh;
+    margin-bottom: 2em;
+    border: 2px solid rgb(255, 77, 0);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px white;
+}
+input{
+    border: 3px solid yellow;
+    box-shadow: 2px 2px 4px red;
+    border-radius: 10px;
 }
